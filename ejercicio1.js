@@ -1,6 +1,6 @@
 let entrada = prompt("Por favor, ingrese su nombre");
 if (entrada == ""){
-    alert( "El campo sigue vacío");
+    alert( "campo vacío");
 }
 else {
     alert("Nombre ingresado"); 
