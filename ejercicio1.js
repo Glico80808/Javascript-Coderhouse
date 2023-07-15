@@ -1,13 +1,13 @@
 let entrada = prompt("Por favor, ingrese su nombre");
 if (entrada == ""){
-    alert( "El campo sigue vacío");
+    alert( "campo vacío");
 }
 else {
     alert("Nombre ingresado"); 
 }
 let entrada2 = prompt("Por favor, ingrese su apellido");
 if (entrada == ""){
-    alert( "El campo sigue vacío");
+    alert( "campo vacío");
 }
 else {
     alert("Apellido ingresado");
