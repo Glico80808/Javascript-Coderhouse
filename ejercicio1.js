@@ -7,7 +7,7 @@ else {
 }
 let entrada2 = prompt("Por favor, ingrese su apellido");
 if (entrada == ""){
-    alert( "El campo sigue vacío");
+    alert( "campo vacío");
 }
 else {
     alert("Apellido ingresado");
