@@ -1,4 +1,4 @@
-let login = true
+let login = true;
 
 while( login === true){
     let user = prompt ( " Ingrese el nombre de usuario")
@@ -8,7 +8,7 @@ while( login === true){
     if(validacion){
         alert ( `Bienvenido/a ${user} ${pass}`)
         login = false
-        break
+        break;
     }
-    alert ("Usuario y/o contraseña incorrecta")
+    alert ("Usuario y/o contraseña incorrecta");
 }

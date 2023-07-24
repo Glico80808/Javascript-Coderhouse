@@ -1,5 +1,5 @@
-let contador = 0
-let passGuardada = "galarga"
+let contador = 0;
+let passGuardada = "galarga";
 
 do{
     let passIngresada = prompt (" Ingresa tu pass");
@@ -11,11 +11,11 @@ do{
 
     if( passGuardada === passIngresada){
         console.log( `Bienvenido/a`);
-        break
+        break;
     }
 
     if (contador === 3) {
         alert("Has alcanzado el máximo número de intentos. Acceso denegado.");
-        break
+        break;
     }
 }while (contador < 3);
