@@ -3,7 +3,7 @@ let carrito = []
 const productos = [
     {id: 1, nombre: "Pantalón",categoria: "Moda", stock: 10, precio: 12000},
     {id: 2, nombre: "Crema humectante",categoria: "Salud",stock: 15,precio: 700},
-    {id: 3, nombre: "cafetera",categoria: "Electrodomésticos",stock: 20,precio: 15000},
+    {id: 3, nombre: "Cafetera",categoria: "Electrodomésticos",stock: 20,precio: 15000},
     {id: 4, nombre: "Chaqueta", categoria: "Moda",stock: 15,precio: 20000},
     {id: 5, nombre: "Televisor",categoria: "Electrodomésticos",stock: 10,precio: 200000},
     {id: 6, nombre: "Crema dental",categoria: "Salud",stock: 25,precio: 1000},
